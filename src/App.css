@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+li {list-style: none;}
+
+.btn {width: 100px;height:60px;border: solid 1px #000;background-color: #fff;color:#000;}
+ul {border:solid 1px red;background-color: lightcyan;}
+li {padding:10px;font-size: 18px;text-align: left;transition: all .3s;}
+.list_open {display: block;overflow: visible;}
+.list_close {display: none;overflow:hidden;}
+.list_open li {height: auto;}
+.list_close li {height: 0;}
